@@ -1,30 +1,30 @@
-POST http://localhost:3333/videos
+POST https://node-zero-4igq.onrender.com/videos
 Content-Type: application/json
 
 {
-    "title": "Video node",
-    "description": "Que video legal",
+    "title": "Video #4",
+    "description": "Que bacana",
     "duration": 108
 }
 
 ###
 
-GET  http://localhost:3333/videos
+GET  https://node-zero-4igq.onrender.com/videos
 
 ###
-GET  http://localhost:3333/videos?search=node
+GET  https://node-zero-4igq.onrender.com/videos?search=node
 
 ###
 
-PUT http://localhost:3333/videos/803ccfb2-30ea-4696-b2fd-4acfa370a1d3
+PUT https://node-zero-4igq.onrender.com/videos/16775c2c-552e-4807-9571-d311323d989f
 Content-Type: application/json
 
 {
-    "title": "Video #3",
-    "description": "Video bacana",
+    "title": "Video #2",
+    "description": "Primeira API",
     "duration": 108
 }
 
 ###
 
-DELETE  http://localhost:3333/videos/803ccfb2-30ea-4696-b2fd-4acfa370a1d3
+DELETE  https://node-zero-4igq.onrender.com/videos/866a333a-7695-4048-94c4-01f052cb6cdd
