@@ -1,0 +1,30 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "Video node",
+    "description": "Que video legal",
+    "duration": 108
+}
+
+###
+
+GET  http://localhost:3333/videos
+
+###
+GET  http://localhost:3333/videos?search=node
+
+###
+
+PUT http://localhost:3333/videos/803ccfb2-30ea-4696-b2fd-4acfa370a1d3
+Content-Type: application/json
+
+{
+    "title": "Video #3",
+    "description": "Video bacana",
+    "duration": 108
+}
+
+###
+
+DELETE  http://localhost:3333/videos/803ccfb2-30ea-4696-b2fd-4acfa370a1d3
